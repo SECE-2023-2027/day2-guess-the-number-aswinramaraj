@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Guess The Number</title>
+  <link rel="stylesheet" href="number.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Guess the Number</h1>
+    <div class="number-display" id="numberDisplay">?</div>
+    <input type="number" id="guessInput" placeholder="Enter a number (1-20)" />
+    <button onclick="checkGuess()">Check</button>
+    <p id="message"></p>
+  </div>
+
+  <script src="number.js"></script>
+</body>
+</html>
